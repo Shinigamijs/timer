@@ -1,9 +1,9 @@
 let [seconds, minutes, hours] = [0,0,0];
 let displayTime = document.getElementById('displayTime');
 let timer = null;
-let startTimer = document.querySelector('.start-button');
-let stopTimer = document.querySelector('.stop-button');
-let resetTimer = document.querySelector('.reset-button');
+const startTimer = document.querySelector('.start-button');
+const stopTimer = document.querySelector('.stop-button');
+const resetTimer = document.querySelector('.reset-button');
 
 
 
